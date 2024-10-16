@@ -1,6 +1,6 @@
 # NotPixelBot
 
-Auto paint and claim for N\*t P\*xel
+Auto paint and claim for N\Ot P\ixel
 
 The English version of the Readme is available at [README_EN.md](README_EN.md)
 
@@ -61,13 +61,13 @@ Berikut penjelasan untuk tentang isi config.json
 
 Script / program ini juga mendukung beberapa argument parameter yang bisa dipakai, berikut adalah penjelasan argument 
 
-<!-- `--data` / `-D` bisa digunakan ketika anda mempunyai nama file yang berbeda untuk menyimpan data akun. Secara bawaan nama file yang digunakan oleh script / program ini untuk menyimpan data akun adalah `data.txt`, semisal anda mempunyai file bernama `query.txt` sebagai file yang menyimpan data akun maka tinggal jalankan `bot.py` dengan menambahkan argumetn `--data` / `-D`. Contoh `python bot.py --data query.txt` -->
+<!-- `--data` / `-D` bisa digunakan ketika anda mempunyai nama file yang berbeda untuk menyimpan data akun. Secara bawaan nama file yang digunakan oleh script / program ini untuk menyimpan data akun adalah `data.txt`, semisal anda mempunyai file bernama `query.txt` sebagai file yang menyimpan data akun maka tinggal jalankan `Bot.py` dengan menambahkan argumetn `--data` / `-D`. Contoh `python Bot.py --data query.txt` -->
 
-`--proxy` / `-P` bisa digunakan ketika anda mempunyai nama file yang berbeda untuk menyimpan list proxy. Nama file yang digunakan oleh script / program ini untuk menyimpan daftar proxy adalah `proxies.txt`, semisal anda mempunyai file bernama `prox.txt` sebagai file yang menyimpan daftar proxy, anda hanya tinggal menambahkan argument parameter `--proxy` / `-P` untuk dapat menggunakan file proxy anda. Contoh `python bot.py --proxy prox.txt`
+`--proxy` / `-P` bisa digunakan ketika anda mempunyai nama file yang berbeda untuk menyimpan list proxy. Nama file yang digunakan oleh script / program ini untuk menyimpan daftar proxy adalah `proxies.txt`, semisal anda mempunyai file bernama `prox.txt` sebagai file yang menyimpan daftar proxy, anda hanya tinggal menambahkan argument parameter `--proxy` / `-P` untuk dapat menggunakan file proxy anda. Contoh `python Bot.py --proxy prox.txt`
 
-`--worker` / `-W` argument ini berfungsi untuk melakukan kustomisasi jumlah thread / worker yang digunakan ketika script bot ini berjalan. Secara bawaan script / software ini jumlah worker nya adalah (total core cpu / 2), semisal cpu anda memiliki core 6 maka jumlah worker yang digunakan adalah 3. Anda bisa melakukan kustomisasi untuk jumlah worker ini menggunakan argument ini. Contohnya anda ingin membuat jumlah worker nya menjadi 100 maka jalankan `bot.py` dengan argument seperti ini `python bot.py --worker 100`. Dan jika anda tidak suka menggunakan worker / thread / multiprocessing maka anda bisa melakukan kustomisasi worker menjadi 1, contoh `python bot.py --worker 1`.
+`--worker` / `-W` argument ini berfungsi untuk melakukan kustomisasi jumlah thread / worker yang digunakan ketika script bot ini berjalan. Secara bawaan script / software ini jumlah worker nya adalah (total core cpu / 2), semisal cpu anda memiliki core 6 maka jumlah worker yang digunakan adalah 3. Anda bisa melakukan kustomisasi untuk jumlah worker ini menggunakan argument ini. Contohnya anda ingin membuat jumlah worker nya menjadi 100 maka jalankan `Bot.py` dengan argument seperti ini `python Bot.py --worker 100`. Dan jika anda tidak suka menggunakan worker / thread / multiprocessing maka anda bisa melakukan kustomisasi worker menjadi 1, contoh `python Bot.py --worker 1`.
 
-`--action` / `-A` argument ini berfungsi untuk langsung masuk ke kemu yang dituju, misal dalam script bot ini ada 5 menu jika anda tidak ingin melakukan input secara manual anda bisa menggunakan argument ini untuk langsung masuk ke menu yang dituju. Contoh : `python bot.py --action 5` dalalm contoh tersebut berarti anda akan langsung masuk ke menu nomor 5. Argument ini berguna jika kalian menggunakan docker / pm2 untuk menjalankan script bot di proses background.
+`--action` / `-A` argument ini berfungsi untuk langsung masuk ke kemu yang dituju, misal dalam script bot ini ada 5 menu jika anda tidak ingin melakukan input secara manual anda bisa menggunakan argument ini untuk langsung masuk ke menu yang dituju. Contoh : `python Bot.py --action 5` dalalm contoh tersebut berarti anda akan langsung masuk ke menu nomor 5. Argument ini berguna jika kalian menggunakan docker / pm2 untuk menjalankan script bot di proses background.
 
 ## Tentang Proxy
 
@@ -154,7 +154,7 @@ cp config.json.example config.json
    
 7. Jalankan/ eksekusi file utama 
    ```shell
-   python bot.py
+   python Bot.py
    ```
 
 ## Linux
@@ -206,7 +206,7 @@ cp config.json.example config.json
    
 7. Jalankan/ eksekusi file utama 
    ```shell
-   python bot.py
+   python Bot.py
    ```
 
 ## Termux
