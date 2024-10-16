@@ -21,7 +21,7 @@ The English version of the Readme is available at [README_EN.md](README_EN.md)
 
 # Pendaftaran
 
-Ikuti tautan berikut untuk mendaftar : [https://t.me/notpixel/app?startapp=f1091429348_s573984](https://t.me/notpixel/app?startapp=f1091429348_s573984)
+Ikuti tautan berikut untuk mendaftar : [https://t.me/notpixel/app?](https://t.me/notpixel/app?startapp=f1091429348_s573984)
 
 # Fitur
 
