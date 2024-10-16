@@ -1,0 +1,10 @@
+__pycache__
+config.json
+sessions
+*.session
+*.sqlite3
+*.log
+*.txt
+!requirements.txt
+tes.py
+README_JP.md
