@@ -250,7 +250,7 @@ cp config.json.example config.json
    
 6. Jalankan/ eksekusi file utama 
    ```shell
-   python bot.py
+   python Bot.py
    ```
 
 # Terima kasih
