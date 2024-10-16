@@ -67,7 +67,7 @@ class Config:
         self.disable_log = disable_log
 
 
-class NotPixTod:
+class NotPixelBot:
     def __init__(self, no, config, proxies):
         self.cfg: Config = config
         self.p = no
@@ -378,12 +378,6 @@ async def main():
             ewtime=cfg.get("time_before_start", [30, 60])[1],
             disable_log=disable_log,
         )
-    banner = f"""
-{magenta}┏┓┳┓┏┓  ┏┓    •      {white}NotPixTod Auto Claim for {green}N*t P*xel
-{magenta}┗┓┃┃┗┓  ┃┃┏┓┏┓┓┏┓┏╋  {green}Author : {white}[redacte]
-{magenta}┗┛┻┛┗┛  ┣┛┛ ┗┛┃┗ ┗┗  {green}Note : {white}Every Action Has a Consequence
-{magenta}              ┛      
-        """
     main_menu = f"""
     {white}1{green}. {white}Add/Create Session 
     {white}2{green}. {white}Start Bot (Multi Process)
@@ -410,7 +404,7 @@ async def main():
                 f"{white}[{yellow}?{white}] {yellow}input phone number : {reset}"
             )
             proxy = None
-            x = NotPixTod(no=0, config=config, proxies=proxies)
+            x = NotPixelBot (no=0, config=config, proxies=proxies)
             if len(proxies) > 0:
                 unique = x.marinkitagawa(phone=phone)
                 proxy = proxies[unique]
@@ -444,7 +438,7 @@ async def main():
                 sessions = get_sessions()
                 proxies = get_datas(proxy_file=args.proxy)
                 for no, phone in enumerate(sessions):
-                    await NotPixTod(no=no, config=config, proxies=proxies).start(
+                    await NotPixelBot (no=no, config=config, proxies=proxies).start(
                         phone=Path(phone).stem
                     )
                 await countdown(config.countdown)
