@@ -1,6 +1,6 @@
 # NotPixelBot
 
-Auto paint and claim for N\Ot P\ixel
+Auto paint and claim for NotPixel
 
 The English version of the Readme is available at [README_EN.md](README_EN.md)
 
